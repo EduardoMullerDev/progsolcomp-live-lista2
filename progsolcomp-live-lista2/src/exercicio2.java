@@ -17,7 +17,7 @@ public class exercicio2 {
         
         System.out.println("Digite o terceiro número");
         int c = teclado.nextInt();
-        
+        teclado.close();
      
     if (a <= b && b <= c)
     {

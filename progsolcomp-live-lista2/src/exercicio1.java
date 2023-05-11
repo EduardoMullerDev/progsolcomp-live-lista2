@@ -16,6 +16,7 @@ public class exercicio1 {
     
     System.out.println("Digite o segundo número");
     int b = teclado.nextInt();
+    teclado.close();
 
 if (a >= b){
     System.out.println("o maior número é: " + a);
